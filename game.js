@@ -34,6 +34,13 @@ const soundFiles = {
     lose: 'audio/lose.mp3'
 };
 
+
+//variables para abrir el menu de hamburguesa
+const menuHamburguesa = document.querySelector('.menu-screen-menu-hamburger');
+menuHamburguesa.addEventListener('click', () => {
+    switchScreen('options-screen')
+});
+
 // Carga de todos los archivos de audio
 async function loadAudio() {
     const promises = Object.keys(soundFiles).map(key => {

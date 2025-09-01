@@ -37,6 +37,7 @@ body {
     top:10px;
     right:10px;
     /* background-color: red; */
+    cursor:pointer;
 }
 
 .menu-screen-menu-hamburger span{
